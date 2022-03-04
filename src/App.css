@@ -1,3 +1,7 @@
+* {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin-top: 80px;
+  background-image: url('./assets/pngtree-lightning-button-icon-design-png-image_1518954\ \(1\).jpg');
+  background-size: 65px;
+  background-repeat: repeat;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  background-color: #b40c06;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.nav a {
+  font-size: 10px;
+  color: white;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  text-align: justify;
+  margin: 0 10px;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.home img {
+  width: 90vw;
+}
+
+.isActive {
+  color: blueviolet;
+}
+
+.house {
+  width: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+.scroll-div {
+  position: fixed;
+  top: 60px;
+  width: 300px;
+  max-height: 100%;
+  overflow-y: scroll;
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.452);
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.allBeers {
+  width: 300px;
+}
+
+.allBeers img {
+  width: 100px;
+  height: 250px;
+}
+
+.beer img {
+  width: 150px;
+  height: 300px;
+}
+
+.addBeer {
+  background-color: white;
 }
